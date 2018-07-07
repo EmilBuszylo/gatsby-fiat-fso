@@ -6,7 +6,7 @@ media_folder: static/assets
 public_folder: assets
 
 collections:
- - name: "front-page"
+  - name: "front-page"
     label: "Strona główna"
     files:
       - file: "src/pages/markdown/front-page/index.md"

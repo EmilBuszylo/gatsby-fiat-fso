@@ -1,22 +1,47 @@
+import '../theme/styles/index.scss';
+import './style.scss';
+
 import React from 'react'
 import PropTypes from 'prop-types'
 
 import Header from '../components/Header';
+import BackDrop from '../components/layout/BackDrop';
+import SideDraw from '../components/layout/SideDraw';
 
-import '../theme/styles/index.scss';
+export default class Layout extends React.Component {
+  static propTypes = {
+    children: PropTypes.func,
+  }
 
-const Layout = ({ children }) => (
-  <div>
-    <Header />
-    {children()}
-  </div>
-)
+  state = {
+    showSideDraw: false
+  }
 
-Layout.propTypes = {
-  children: PropTypes.func,
+  componentDidMount = () => {
+    this.setState(prevState => ({ ...prevState, showSideDraw: false }));
+  }
+
+  openSideDrawHandler = () => {
+    this.setState((prevState) => {
+      return { ...this.state, showSideDraw: !prevState.showSideDraw };
+    });
+  }
+
+  render() {
+    const { showSideDraw } = this.state;
+
+    return (
+      <div id="layout">
+        <Header toggler={this.openSideDrawHandler} />
+        {Boolean(showSideDraw) &&
+          <BackDrop toggler={showSideDraw ? this.openSideDrawHandler : null} />
+        }
+        <SideDraw showSideDraw={showSideDraw} toggler={this.openSideDrawHandler} />
+        {this.props.children()}
+      </div>
+    )
+  }
 }
-
-export default Layout
 
 export const query = graphql`
   query SiteTitleQuery {

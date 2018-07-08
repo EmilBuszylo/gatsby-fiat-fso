@@ -1,0 +1,37 @@
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .mobile-control {
+        display: none;
+    }
+
+    .navbar-brand {
+        .image {
+            max-width: 12em;
+        }
+    }
+
+    .navigation {
+        .menu-list {
+            display: flex;
+
+            #nav-item {
+                padding-left: 1em;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    @media (max-width: 760px) {
+
+        .mobile-control {
+            display: block;
+        }
+
+        #menu {
+            display: none;
+        }
+    }
+}

@@ -2,7 +2,17 @@
 templateKey: 'front-page'
 path: /
 title: Strona główna
-description: Strona głowna nowego serwisu dla Damiana
+description: Strona główna nowego serwisu dla Damiana
+slider_img:
+  image1:
+        alt: Coffee beans
+        image: ./img/warszawa_slider3.jpg
+  image2:
+        alt: A green cup of a coffee on a wooden table
+        image: ./img/warszawa_slider2.jpg
+  image3:
+        alt: A close-up of a paper filter filled with ground coffee
+        image: ./img/warszawa_slider.jpg
 ---
 ### Shade-grown coffee
 Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.

@@ -6,14 +6,23 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "front-page"
-    label: "Strona główna"
+  - name: "pages"
+    label: "Strony"
     files:
       - file: "src/pages/markdown/front-page/index.md"
         label: "Strona główna"
         name: "front-page"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "front-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: Slider_img, name: slider_img, widget: object, fields: [{label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/markdown/cennik/index.md"
+        label: "Cennik"
+        name: "pircing"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "pircing-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", widget: "string"}
           - {label: Slider_img, name: slider_img, widget: object, fields: [{label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}

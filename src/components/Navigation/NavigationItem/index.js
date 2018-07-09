@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link'
 
-export default class PortalNavigationMenuItemComponent extends React.Component {
+export default class NavigationItemComponent extends React.Component {
     static propTypes = {
         path: PropTypes.string,
         label: PropTypes.string,
@@ -20,7 +20,7 @@ export default class PortalNavigationMenuItemComponent extends React.Component {
         const { label, path, target, icon } = this.props;
 
         return (
-            <li id="nav-item">
+            <li id="navigation-item-component">
                 {icon && <img src={icon} />}
                 <Link activeClassName="active" className="nav-link" to={path} target={target}>{label}</Link>
             </li>

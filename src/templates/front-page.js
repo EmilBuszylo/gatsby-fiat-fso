@@ -32,7 +32,7 @@ export default class FrontPage extends React.Component {
 }
 
 export const frontPage = graphql`
-query FrontPage($path: String!) {
+query FrontPage2($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {

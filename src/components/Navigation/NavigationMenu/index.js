@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 
 import Item from '../NavigationItem';
 
-export default class Navigation extends React.Component {
+export default class NavigationComponent extends React.Component {
     static propTypes = {
         menuItems: PropTypes.array
     }
@@ -14,8 +14,8 @@ export default class Navigation extends React.Component {
         const { menuItems } = this.props;
 
         return (
-            <nav id="menu">
-                <ul className="menu-list">
+            <nav id="navigation-component">
+                <ul className="navigation-list">
                     {menuItems.map(item =>
                         <Item
                             {...item}

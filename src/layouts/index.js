@@ -20,6 +20,8 @@ export default class Layout extends React.Component {
 
   componentDidMount = () => {
     this.setState(prevState => ({ ...prevState, showSideDraw: false }));
+    document.addEventListener('scroll', this.handleScroll);
+
   }
 
   openSideDrawHandler = () => {
@@ -28,19 +30,29 @@ export default class Layout extends React.Component {
     });
   }
 
+  handleScroll = (event) => {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (this.props.scrollAction >= scrollTop) {
+      console.log(36)
+    } else {
+      console.log(38, scrollTop)
+    }
+}
+
   render() {
     const { showSideDraw } = this.state;
-    console.log(this.props)
 
     return (
       <div id="layout">
-        <Header toggler={this.openSideDrawHandler} />
-        {Boolean(showSideDraw) &&
-          <BackDrop toggler={showSideDraw ? this.openSideDrawHandler : null} />
-        }
-        <SideDraw showSideDraw={showSideDraw} toggler={this.openSideDrawHandler} />
-        {this.props.children()}
-        <Footer />
+        <div className="container">
+          <Header toggler={this.openSideDrawHandler} />
+          {Boolean(showSideDraw) &&
+            <BackDrop toggler={showSideDraw ? this.openSideDrawHandler : null} />
+          }
+          <SideDraw showSideDraw={showSideDraw} toggler={this.openSideDrawHandler} />
+          {this.props.children()}
+          <Footer />
+        </div>
       </div>
     )
   }

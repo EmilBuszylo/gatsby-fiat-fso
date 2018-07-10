@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import PropTypes from 'prop-types'
 
-import logo from '../../../img/logo-example.svg';
+import logo from '../../../img/warszawa-logo.png';
 
 export default class BrandComponent extends React.Component {
     static propTypes = {

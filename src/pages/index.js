@@ -5,6 +5,10 @@ import Carousel from 'nuka-carousel';
 import Content from '../components/Content';
 import Helmet from 'react-helmet'
 
+import LogoF from '../img/logo-f.png'
+import LogoS from '../img/logo-s.png'
+import LogoO from '../img/logo-o.png'
+
 export default class FrontPage extends React.Component {
 
   render() {
@@ -24,8 +28,26 @@ export default class FrontPage extends React.Component {
           <img src={markdownRemark.frontmatter.slider_img.image2.image} />
           <img src={markdownRemark.frontmatter.slider_img.image3.image} />
         </Carousel>
-        <h1>{markdownRemark.frontmatter.title}</h1>
-        <Content content={markdownRemark.html} />
+        <section className="carts-wrapper">
+          <a className="slingle-cart" href="/cennik">
+            <h3 className="cart-title">Fotki</h3>
+            <img className="cart-img" src={LogoF} alt="Logo FSO literka F"/>
+            <p className="cart-desc">Galeria zdjęć naszego auta<br/> i nie tylko..</p>
+          </a>
+          <a className="slingle-cart" href="/cennik">
+            <h3 className="cart-title">Samochód</h3>
+            <img className="cart-img" src={LogoS} alt="Logo FSO literka S"/>
+            <p className="cart-desc">Wszystko co chciałbyś wiedziec<br/> o naszym aucie..</p>
+          </a>
+          <a className="slingle-cart" href="/cennik">
+            <h3 className="cart-title">O nas</h3>
+            <img className="cart-img" src={LogoO} alt="Logo FSO literka O"/>
+            <p className="cart-desc">Wszystko co chciałbyś wiedzieć<br/> o nas samych..</p>
+          </a>
+        </section>
+        <section className="page-content">
+          <Content content={markdownRemark.html} />
+        </section>
       </div>
     )
   }

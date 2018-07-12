@@ -2,16 +2,17 @@
 templateKey: 'front-page'
 path: /
 title: Strona główna
-description: Strona główna nowego serwisu dla Damiana
+seo-title: Warszawa FSO 223
+description: Warszawa FSO 223
 slider_img:
   image1:
-        alt: Coffee beans
+        alt: Warszawa FSO 223
         image: ./img/warszawa_slider3.jpg
   image2:
-        alt: A green cup of a coffee on a wooden table
+        alt: Warszawa FSO 223
         image: ./img/warszawa_slider2.jpg
   image3:
-        alt: A close-up of a paper filter filled with ground coffee
+        alt: Warszawa FSO 223
         image: ./img/warszawa_slider.jpg
 ---
 ### Shade-grown coffee

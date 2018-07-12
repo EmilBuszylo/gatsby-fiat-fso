@@ -22,8 +22,35 @@ collections:
         label: "Cennik"
         name: "pircing"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "pircing-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "cennik"}
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Title", name: "seo-title", widget: "string"}
           - {label: "Description", name: "description", widget: "string"}
-          - {label: Slider_img, name: slider_img, widget: object, fields: [{label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/markdown/nasze-auto/index.md"
+        label: "Nasze auto"
+        name: "nasze auto"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "nasze-auto"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Title", name: "seo-title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/markdown/oferta/index.md"
+        label: "Oferta"
+        name: "oferta"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "oferta"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Title", name: "seo-title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/markdown/o-nas/index.md"
+        label: "O nas"
+        name: "o nas"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "o-nas"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Title", name: "seo-title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}

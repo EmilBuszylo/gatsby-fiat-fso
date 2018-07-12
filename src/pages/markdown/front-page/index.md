@@ -18,4 +18,3 @@ slider_img:
 ### Nasze auto
 Nasze auto to kultowa limuzyna z czasów minionej epoki FSO Warszawa 223.
 W 1971 urodził się Mitja Kunc, słoweński narciarz alpejski, w tym samym roku w amerykańskim stanie Utah utworzono Park Narodowy Arches. 45 lat temu powstał także nasz egzemplarz tej socjalistycznej myśli technicznej.
-

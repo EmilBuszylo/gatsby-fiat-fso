@@ -1,9 +1,39 @@
-.slider  {
-    max-width: 1440px;
-    margin: 0 auto;
-}
+#front-page {
 
-.slider-slide > img {
-    max-height: 560px;
-    object-fit: fill;
+    .slider  {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    
+    .slider-slide > img {
+        height: 460px;
+        object-fit: fill;
+    }
+    
+    .carts-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 3em auto;
+
+        .slingle-cart {
+            max-width: 14em;
+            padding: 1em;
+        }
+    }
+
+    .page-content {
+        margin: 3em auto;
+
+        h3 {
+            background: $accentGradient;
+            padding: .3em;
+            color: #fff; 
+        }
+
+        p {
+            padding: .5em;
+        }
+    }
 }

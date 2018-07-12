@@ -2,18 +2,23 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: linear-gradient(to right, #485563, #29323c);
+    padding: .5em;
 
     .mobile-control {
         display: none;
     }
 
     .navigation {
+
         .navigation-list {
             display: flex;
 
-            #nav-item {
+            #navigation-item-component {
                 padding-left: 1em;
                 margin-bottom: 0;
+                color: #fff;
+                font-size: 1.2em;
             }
         }
     }

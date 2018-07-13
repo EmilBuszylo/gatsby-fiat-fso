@@ -2,7 +2,8 @@
 templateKey: 'o-nas'
 path: /o-nas
 title: O nas
-seo-title: Warszawa FSO 223 - O nas
+seoTitle: Warszawa FSO 223 - O nas
+keyWords: Waszawa FSO 223, samochód do ślubu, wynajem auta, ślub, okazje
 description: Warszawa FSO 223 - O nas, hcielibyśmy zaproponować Państwu profesjonalną i kompleksową usługę wynajmu pięknego samochodu FSO Warszawa 223
 ---
 Chcielibyśmy zaproponować Państwu profesjonalną i kompleksową usługę wynajmu pięknego samochodu FSO Warszawa 223 – kultowego auta minionej epoki.

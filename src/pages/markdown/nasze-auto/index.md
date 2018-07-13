@@ -2,7 +2,8 @@
 templateKey: 'nasze-auto'
 path: /nasze-auto
 title: Nasze auto
-seo-title: Warszawa FSO 223 - Nasze auto
+seoTitle: Warszawa FSO 223 - Nasze auto
+keyWords: Waszawa FSO 223, samochód do ślubu, wynajem auta, ślub, okazje
 description: Warszawa FSO 223 - Nasze auto to kultowa limuzyna z czasów minionej epoki
 ---
 Nasze auto to kultowa limuzyna z czasów minionej epoki FSO Warszawa 223

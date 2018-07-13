@@ -7,7 +7,7 @@ public_folder: /img
 
 collections:
   - name: "pages"
-    label: "Strony"
+    label: "Strony"keyWords
     files:
       - file: "src/pages/markdown/front-page/index.md"
         label: "Strona główna"
@@ -15,6 +15,8 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "front-page"}
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Key Words", name: "keyWords", widget: "string"}
+          - {label: "SEO Title", name: "seoTitle", widget: "string"}
           - {label: "Description", name: "description", widget: "string"}
           - {label: Slider_img, name: slider_img, widget: object, fields: [{label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -24,7 +26,8 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "cennik"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "SEO Title", name: "seo-title", widget: "string"}
+          - {label: "SEO Title", name: "seoTitle", widget: "string"}
+          - {label: "Key Words", name: "keyWords", widget: "string"}
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/markdown/nasze-auto/index.md"
@@ -33,7 +36,8 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "nasze-auto"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "SEO Title", name: "seo-title", widget: "string"}
+          - {label: "Key Words", name: "keyWords", widget: "string"}
+          - {label: "SEO Title", name: "seoTitle", widget: "string"}
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/markdown/oferta/index.md"
@@ -42,7 +46,8 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "oferta"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "SEO Title", name: "seo-title", widget: "string"}
+          - {label: "SEO Title", name: "seoTitle", widget: "string"}
+          - {label: "Key Words", name: "keyWords", widget: "string"}
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/markdown/o-nas/index.md"
@@ -51,6 +56,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "o-nas"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "SEO Title", name: "seo-title", widget: "string"}
+          - {label: "SEO Title", name: "seoTitle", widget: "string"}
+          - {label: "Key Words", name: "keyWords", widget: "string"}
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}

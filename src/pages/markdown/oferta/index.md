@@ -2,7 +2,8 @@
 templateKey: 'oferta'
 path: /oferta
 title: Oferta
-seo-title: Warszawa FSO 223 - Oferta
+seoTitle: Warszawa FSO 223 - Oferta
+keyWords: Waszawa FSO 223, samochód do ślubu, wynajem auta, ślub, okazje
 description: Warszawa FSO 223 - Oferta, Jubileusze, Chrzciny, Studniówki, Bale, Zwykłe przejażdżki
 ---
 Naszym głównym celem jest towarzyszenie Państwu w tej szczególnej uroczystości jaką jest ceremonia ślubna, a nasza usługa obejmuje, wszystkie przejazdy w tym ważnym dla Państwa dniu. Nasza rola kończy się w momencie, gdy dotrą Państwo po ceremonii zaślubin do miejsca w którym zamierzają Państwo świętować ten wyjątkowy dzień.

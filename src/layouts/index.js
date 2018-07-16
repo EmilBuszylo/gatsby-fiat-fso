@@ -20,8 +20,6 @@ export default class Layout extends React.Component {
 
   componentDidMount = () => {
     this.setState(prevState => ({ ...prevState, showSideDraw: false }));
-    document.addEventListener('scroll', this.handleScroll);
-
   }
 
   openSideDrawHandler = () => {
@@ -29,15 +27,6 @@ export default class Layout extends React.Component {
       return { ...this.state, showSideDraw: !prevState.showSideDraw };
     });
   }
-
-  handleScroll = (event) => {
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    if (this.props.scrollAction >= scrollTop) {
-      console.log(36)
-    } else {
-      console.log(38, scrollTop)
-    }
-}
 
   render() {
     const { showSideDraw } = this.state;

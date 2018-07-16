@@ -31,29 +31,29 @@ export default class FrontPage extends React.Component {
   }
 }
 
-export const frontPage = graphql`
-query FrontPage2($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        title
-        path
-        description
-        slider_img {
-          image1 {
-            alt
-            image
-          }
-          image2 {
-            alt
-            image
-          }
-          image3 {
-            alt
-            image
-          }
-        }
-      }
-    }
-  }
-`;
+// export const frontPage = graphql`
+// query FrontPage($path: String!) {
+//     markdownRemark(frontmatter: { path: { eq: $path } }) {
+//       html
+//       frontmatter {
+//         title
+//         path
+//         description
+//         slider_img {
+//           image1 {
+//             alt
+//             image
+//           }
+//           image2 {
+//             alt
+//             image
+//           }
+//           image3 {
+//             alt
+//             image
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;

@@ -5,13 +5,14 @@ import Carousel from 'nuka-carousel';
 import Content from '../components/Content';
 import Helmet from 'react-helmet'
 
-export default class Cennik extends React.Component {
+export default class AboutCarPage extends React.Component {
 
   render() {
     const { markdownRemark } = this.props.data
 
+    console.log(this.props)
     return (
-      <div id="pircing">
+      <div id="about-car-page">
         <Helmet
           meta={[
             { name: 'title', content: markdownRemark.frontmatter.seoTitle },
@@ -26,8 +27,8 @@ export default class Cennik extends React.Component {
   }
 }
 
-export const pircingPage = graphql`
-query PircingPage($id: String!) {
+export const aboutCarPage = graphql`
+query AboutCarPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

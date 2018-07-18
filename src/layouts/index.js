@@ -3,6 +3,7 @@ import './style.scss';
 
 import React from 'react'
 import PropTypes from 'prop-types'
+import Helmet from 'react-helmet';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -33,12 +34,17 @@ export default class Layout extends React.Component {
 
     return (
       <div id="layout">
+        <Helmet>
+          <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+          <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:300,400,600" rel="stylesheet"/> 
+                  </Helmet>
         <div className="container">
           <Header toggler={this.openSideDrawHandler} />
           {Boolean(showSideDraw) &&
             <BackDrop toggler={showSideDraw ? this.openSideDrawHandler : null} />
           }
           <SideDraw showSideDraw={showSideDraw} toggler={this.openSideDrawHandler} />
+          <div className="hero" style={{ backgroundImage: "url(./img/warszawa_slider2.jpg)" }}></div> 
           {this.props.children()}
           <Footer />
         </div>
@@ -53,6 +59,7 @@ query Query {
       html
       frontmatter {
         title
+        path
       }
     }
   }

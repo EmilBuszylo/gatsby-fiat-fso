@@ -1,5 +1,12 @@
 #layout {
-  background-color: #f1f1f1;
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+  min-height: 100vh;
+
+
+  font-family: 'Lato', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
+
 
   .open {
       transform: translateX(0);
@@ -10,9 +17,35 @@
   }
 
   .container {
-      max-width: 1440px;
+      max-width: 1366px;
       margin: 0 auto;
       padding: 0 .5em .5em .5em;
       margin: 0 auto;
-  }
+    }
+
+    .page {
+        min-height: 75vh;
+        max-width: 1366px;
+        margin: 0 auto 2em auto;
+        padding: 2em;
+        background: #fff;
+        box-shadow: -1px 5px 10px rgba(0,0,0,0.35);
+
+        .defaultContent {
+            max-width: 75em;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+    }
+
+    .hero {
+        height: 55vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
 }

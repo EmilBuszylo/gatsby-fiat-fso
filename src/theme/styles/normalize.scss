@@ -30,6 +30,15 @@ body {
 
 ol, ul {
     list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 blockquote, q {
@@ -43,6 +52,7 @@ blockquote, q {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -54,31 +64,37 @@ img {
 h1 {
   font-size: 2.5em;
   font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 
 h2 {
   font-size: 2em;
   font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 
 h3 {
   font-size: 1.75em;
   font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 
 h4 {
   font-size: 1.25em;
   font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 
 h5 {
   font-size: 1.1em;
   font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+  font-family: 'Open Sans', sans-serif;
 
   &:active {
     color: inherit;

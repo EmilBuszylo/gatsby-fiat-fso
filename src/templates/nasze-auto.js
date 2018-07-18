@@ -12,7 +12,7 @@ export default class AboutCarPage extends React.Component {
 
     console.log(this.props)
     return (
-      <div id="about-car-page">
+      <div id="about-car-page" className="page">
         <Helmet
           meta={[
             { name: 'title', content: markdownRemark.frontmatter.seoTitle },
@@ -20,7 +20,7 @@ export default class AboutCarPage extends React.Component {
             { name: 'keywords', content: markdownRemark.frontmatter.keyWords },
           ]}
         />
-        <h1>{markdownRemark.frontmatter.title}</h1>
+        <h1 className="page-title">{markdownRemark.frontmatter.title}</h1>
         <Content content={markdownRemark.html} />
       </div>
     )

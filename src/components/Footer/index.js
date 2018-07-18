@@ -3,6 +3,7 @@ import './style.scss';
 import React from 'react';
 import Link from 'gatsby-link';
 import PropTypes from 'prop-types'
+import Social from '../Social';
 
 import Brand from '../layout/Brand';
 
@@ -10,19 +11,28 @@ export default class FooterComponent extends React.Component {
 
   render() {
 
+    const socialItems = {
+      fb: {
+        show: true,
+        link: 'https://facebook.com'
+      },
+      ins: {
+        show: true,
+        link: 'https://intsa.com'
+      },
+      mail: {
+        show: true,
+        link: 'mail'
+      }
+    }
+
     return (
       <div id="footer-component">
         <div className="wrapper">
             <Brand />
-            <div className="quick-contact">
-                <div>777 666 555</div>
-                <div>warszawafso@gmail.com</div>
-            </div>
-            <div className="social">
-                <div className="facebook-icon">FB</div>
-                <div className="instagram-icon">IN</div>
-                <div className="gmail-icon">GM</div>
-            </div>
+            <section className="social-wrapper">
+              <Social socialItems={socialItems}/>
+            </section>
         </div>
       </div>
     )

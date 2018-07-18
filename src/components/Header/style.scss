@@ -3,10 +3,13 @@
     justify-content: space-around;
     align-items: center;
     background: linear-gradient(to right, #485563, #29323c);
-    padding: .5em;
+    padding: .5em .7em;
 
     .mobile-control {
         display: none;
+        color: #fff;
+        font-size: 1.5em;
+        cursor: pointer;
     }
 
     .navigation {
@@ -19,11 +22,22 @@
                 margin-bottom: 0;
                 color: #fff;
                 font-size: 1.2em;
+
+                .nav-link {
+                    transition: all .2s ease-in;
+
+                    &:hover,
+                    &:focus {
+                        color: #af2b36;
+                    }
+                }
             }
         }
     }
 
     @media (max-width: 760px) {
+        justify-content: space-between;
+        flex-direction: row-reverse;
 
         .mobile-control {
             display: block;

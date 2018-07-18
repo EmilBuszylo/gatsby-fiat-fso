@@ -5,6 +5,8 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
 import Menu from '../../Navigation/NavigationMenu';
+import Brand from '../../layout/Brand';
+
 import logo from '../../../img/logo-example.svg';
 
 export default class SideDrawComponent extends React.Component {
@@ -34,11 +36,7 @@ export default class SideDrawComponent extends React.Component {
         return (
             <div className={showSideDraw ? 'open' : 'close'} id="side-draw-component">
                 <header className="side-draw-header">
-                    <Link to="/" className="navbar-item">
-                        <figure className="image">
-                            <img src={logo} alt="Logo" />
-                        </figure>
-                    </Link>
+                    <Brand />
                     <div className="hamburger" onClick={toggler}><i className="fa fa-times" aria-hidden="true"></i></div>
                 </header>
                 {Boolean(showSideDraw) && <div onClick={toggler} className="navbar"><Menu menuItems={menuItems} /></div>}

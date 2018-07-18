@@ -6,7 +6,6 @@ import PropTypes from 'prop-types'
 
 import Menu from '../Navigation/NavigationMenu';
 import Brand from '../layout/Brand';
-import logo from '../../img/logo-example.svg';
 
 export default class HeaderComponent extends React.Component {
   static propTypes = {
@@ -32,7 +31,7 @@ export default class HeaderComponent extends React.Component {
         <Brand />
         <div className="navigation">
           <div className="mobile-control">
-            <div className="hamburger" onClick={toggler}><i className="fa fa-bars " aria-hidden="true" >Menu</i></div>
+            <div className="hamburger" onClick={toggler}><i className="fa fa-bars " aria-hidden="true" ></i></div>
           </div>
           <Menu menuItems={menuItems} />
         </div>

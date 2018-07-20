@@ -10,7 +10,6 @@ export default class AboutCarPage extends React.Component {
   render() {
     const { markdownRemark } = this.props.data
 
-    console.log(this.props)
     return (
       <div id="about-car-page" className="page">
         <Helmet

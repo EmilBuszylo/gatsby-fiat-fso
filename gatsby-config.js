@@ -4,7 +4,6 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-netlify-cms',
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -25,6 +24,15 @@ module.exports = {
         name: 'images',
       },
     },
-    'gatsby-transformer-remark'
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {
+      modulePath: `${__dirname}/src/cms/cms.js`,
+      }
+    },
+    'gatsby-plugin-netlify'
   ],
 }

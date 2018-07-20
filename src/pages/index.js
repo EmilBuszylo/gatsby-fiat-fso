@@ -20,6 +20,7 @@ export default class FrontPage extends React.Component {
     const { markdownRemark } = this.props.data;
 
     const contentText = markdownRemark.html.split('!'); 
+    console.log(contentText)
 
     const socialItems = {
       fb: {

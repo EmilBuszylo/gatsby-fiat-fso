@@ -3,7 +3,6 @@ import './styles.scss';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import { camelCaseToDash } from 'Helpers/String';
 
 export default class SpinnerComponent extends Component {
     static propTypes = {
@@ -19,7 +18,7 @@ export default class SpinnerComponent extends Component {
         const { className, text } = this.props;
 
         return (
-            <div role="component" id={camelCaseToDash(this.constructor.name)} className={`animted fadeIn ${className}`}>
+            <div id="spinner-component" className={`animted fadeIn ${className}`}>
                 <div className="spinner">
                     <div className="rect1"></div>
                     <div className="rect2"></div>

@@ -17,6 +17,7 @@
     "netlify-cms": "^1.9.3",
     "nuka-carousel": "^4.2.5",
     "react-fontawesome": "^1.6.1",
+    "react-grid-gallery": "^0.5.1",
     "react-helmet": "^5.2.0",
     "react-sticky": "^6.0.3"
   },

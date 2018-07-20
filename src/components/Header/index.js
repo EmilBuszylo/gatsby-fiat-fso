@@ -18,6 +18,7 @@ export default class HeaderComponent extends React.Component {
       { label: 'Nasze auto', path: '/nasze-auto' },
       { label: 'Cennik', path: '/cennik' },
       { label: 'Oferta', path: '/oferta' },
+      { label: 'Galeria', path: '/galeria' },
       { label: 'Kontakt', path: '/kontakt' }
     ]
   }

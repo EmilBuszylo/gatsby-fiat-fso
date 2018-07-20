@@ -61,3 +61,13 @@ collections:
           - {label: "Key Words", name: "keyWords", widget: "string"}
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/markdown/galeria/index.md"
+        label: "Galeria"
+        name: "galeria"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "galeria"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Title", name: "seoTitle", widget: "string"}
+          - {label: "Key Words", name: "keyWords", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}

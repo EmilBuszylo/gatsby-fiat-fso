@@ -19,8 +19,9 @@ export default class SideDrawComponent extends React.Component {
         menuItems: [
             { label: 'O nas', path: '/o-nas' },
             { label: 'Nasze auto', path: '/nasze-auto' },
-            { label: 'Cennik', path: 'cennik' },
-            { label: 'Ogerta', path: 'oferta' },
+            { label: 'Cennik', path: '/cennik' },
+            { label: 'Oferta', path: '/oferta' },
+            { label: 'Galeria', path: '/galeria' },
             { label: 'Kontakt', path: '/kontakt' }
         ]
     }

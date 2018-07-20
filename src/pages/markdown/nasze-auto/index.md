@@ -1,9 +1,8 @@
 ---
-templateKey: 'nasze-auto'
-path: /nasze-auto
+templateKey: nasze-auto
 title: Nasze auto
+keyWords: 'Waszawa FSO 223, samochód do ślubu, wynajem auta, ślub, okazje'
 seoTitle: Warszawa FSO 223 - Nasze auto
-keyWords: Waszawa FSO 223, samochód do ślubu, wynajem auta, ślub, okazje
 description: Warszawa FSO 223 - Nasze auto to kultowa limuzyna z czasów minionej epoki
 ---
 Nasze auto to kultowa limuzyna z czasów minionej epoki FSO Warszawa 223
@@ -24,3 +23,5 @@ Skrzynia 3-biegowa
 Średnie zużycie paliwa: 13–14 l/100 km
 Droga hamowania z 80 km/h przy nacisku na pedał równym 50 kG: 42-49 m
 Paliwo: liczba oktanowa min. 78
+
+![](/img/warszawa_slider.jpg)

@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: EmilBuszylo/gatsby-fiat-fso
+  name: test-repo
 
 media_folder: static/img
 public_folder: /img
@@ -19,7 +18,7 @@ collections:
           - {label: "SEO Title", name: "seoTitle", widget: "string"}
           - {label: "Description", name: "description", widget: "string"}
           - {label: Slider_img, name: slider_img, widget: object, fields: [{label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Info_card, name: info_card, widget: object, fields: [{label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, , {label: Link, name: link, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Link, name: link, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Link, name: link, widget: string}]}, {label: Title, name: title, widget: string}]}, {label: Image4, name: image4, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Link, name: link, widget: string}]}]}
+          # - {label: Info_card, name: info_card, widget: object, fields: [{label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, , {label: Link, name: link, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Link, name: link, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Link, name: link, widget: string}]}, {label: Image4, name: image4, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Link, name: link, widget: string}]}]}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/markdown/cennik/index.md"
         label: "Cennik"

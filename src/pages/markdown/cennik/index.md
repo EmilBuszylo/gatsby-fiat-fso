@@ -5,22 +5,16 @@ seoTitle: Warszawa FSO 223
 keyWords: 'Waszawa FSO 223, samochód do ślubu, wynajem auta, ślub, okazje'
 description: Cennik nowego serwisu dla Damiana
 ---
-### Shade-grown coffee
+**Cena 800 zł*** obejmuje kompleksową usługę wynajmu auta w dniu ślubu (w sobotę), jednak nie dłużej niż 6h liczonych od momentu przyjazdu kierowcy.
 
-zmiana tekstu test
+**Cena 700 zł*** obejmuje kompleksową usługę wynajmu auta w dniu ślubu (w inne dni niż sobota), jednak nie dłużej niż 6h liczonych od momentu przyjazdu kierowcy.
 
-### Single origin
+Kwota obejmuję wynagrodzenie kierowcy, okolicznościowe tablice rejestracyjne, oraz koszty paliwa.
+Istnieje również możliwość wynajmu samochodu „na godziny”
 
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+W tej opcji stawka godzinowa wynosi **150zł/h***
+Jeśli Państwa potrzeby nie należą do standardowych, jesteśmy w stanie przygotować indywidualną ofertę cenową. Prosimy o kontakt!
 
-### Sustainable farming
+> W podanych kwotach nie zawiera się przystrojenie samochodu kwiatami „żywymi”
 
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+![Warszawa fso 223 - cennik śluby, wesela, uroczystości](/img/16825949_1209730442480433_6941375034448314847_o-1-.jpg)

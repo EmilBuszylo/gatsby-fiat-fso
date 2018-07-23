@@ -24,4 +24,4 @@ Skrzynia 3-biegowa
 Droga hamowania z 80 km/h przy nacisku na pedał równym 50 kG: 42-49 m
 Paliwo: liczba oktanowa min. 78
 
-![](/img/warszawa_slider.jpg)
+![Warszawa fso 223 - śluby, wesela, uroczystości](/img/warszawa_slider.jpg)

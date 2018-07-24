@@ -12,11 +12,14 @@ export default class GalleryPage extends React.Component {
         const galleryArray = markdownRemark.html.replace(/<p>|<\/p>|<img|src=|"|>|\\|\n/gim, '').split('!');
         let images = [];
 
+        console.log(galleryArray)
+
+
         for (let i = 1; i <= galleryArray.length; i++ ) {
             images.push({
-                src: galleryArray[i -1],
-                thumbnail: galleryArray[i -1],
-                thumbnailWidth: 320,
+                src: galleryArray[i -1].replace(/alt=.+/gim, ''),
+                thumbnail: galleryArray[i -1].replace(/alt=.+/gim, ''),
+                thumbnailWidth: Math.floor((Math.random() * 320) + 160),
                 thumbnailHeight: 190,
             })
 

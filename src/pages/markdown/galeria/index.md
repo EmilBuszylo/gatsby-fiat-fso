@@ -31,7 +31,7 @@ description: >-
 
 !
 
-![]()
+![Warszawa fso 223 - galeria , sluby, wesela, uroczystości](/img/16487665_1191616884291789_4258802591952788921_o-1-.jpg)
 
 !
 

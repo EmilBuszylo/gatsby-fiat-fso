@@ -1,6 +1,7 @@
 ---
 templateKey: galeria
 title: Galeria
+path: /galeria
 seoTitle: Warszawa FSO 223
 keyWords: 'Waszawa FSO 223, samochód do ślubu, wynajem auta, ślub, okazje.'
 description: >-

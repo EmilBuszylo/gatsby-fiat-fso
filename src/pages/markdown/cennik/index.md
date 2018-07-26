@@ -1,6 +1,7 @@
 ---
 templateKey: cennik
 title: Cennik
+path: /cennik
 seoTitle: Warszawa FSO 223
 keyWords: 'Waszawa FSO 223, samochód do ślubu, wynajem auta, ślub, okazje'
 description: Cennik nowego serwisu dla Damiana

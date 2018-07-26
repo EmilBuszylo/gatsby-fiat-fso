@@ -1,6 +1,7 @@
 ---
 templateKey: oferta
 title: Oferta
+path: /oferta
 seoTitle: Warszawa FSO 223 - Oferta
 keyWords: 'Waszawa FSO 223, samochód do ślubu, wynajem auta, ślub, okazje'
 description: >-

@@ -1,6 +1,7 @@
 ---
 templateKey: o-nas
 title: O nas
+path: /o-nas
 seoTitle: Warszawa FSO 223 - O nas
 keyWords: 'Waszawa FSO 223, samochód do ślubu, wynajem auta, ślub, okazje'
 description: >-

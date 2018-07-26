@@ -1,6 +1,7 @@
 ---
 templateKey: front-page
 title: Strona główna
+path: /
 keyWords: 'Waszawa FSO 223, samochód do ślubu, wynajem auta, ślub, okazje'
 seoTitle: Warszawa FSO 223
 description: Warszawa FSO 223

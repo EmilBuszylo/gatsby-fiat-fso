@@ -19,7 +19,12 @@ export default class FrontPage extends React.Component {
   render() {
     const { data } = this.props;
 
-    const contentText = data.html.split('!'); 
+    let contentText;
+
+    if(data) {
+      contentText = data.html.split('!'); 
+    }
+
     console.log(contentText)
 
     const socialItems = {

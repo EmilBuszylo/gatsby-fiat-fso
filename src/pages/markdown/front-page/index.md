@@ -15,12 +15,29 @@ slider_img:
   image3:
     alt: Warszawa FSO 223
     image: ./img/warszawa_slider.jpg
+info_card:
+  image1:
+    title: Warszawa FSO 223
+    link: '/'
+    image: ./img/warszawa_slider3.jpg
+  image2:
+    title: Warszawa FSO 223
+    link: '/'
+    image: ./img/warszawa_slider2.jpg
+  image3:
+    title: Warszawa FSO 223
+    link: '/'
+    image: ./img/warszawa_slider.jpg
+  image4:
+    title: Warszawa FSO 223
+    link: '/'
+    image: ./img/warszawa_slider.jpg
 ---
 ### O nas
 
 Chcielibyśmy zaproponować Państwu profesjonalną i kompleksową usługę wynajmu pięknego samochodu FSO Warszawa 223 – kultowego auta minionej epoki.
 Nasze auto prowadzone jest przez kulturalnego i doświadczonego kierowcę.
-
+!
 ### Nasze auto
 
 Nasze auto to kultowa limuzyna z czasów minionej epoki FSO Warszawa 223.

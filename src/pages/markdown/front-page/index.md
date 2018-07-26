@@ -20,14 +20,13 @@ slider_img:
 Chcielibyśmy zaproponować Państwu profesjonalną i kompleksową usługę wynajmu pięknego samochodu FSO Warszawa 223 – kultowego auta minionej epoki.
 Nasze auto prowadzone jest przez kulturalnego i doświadczonego kierowcę.
 
-
 ### Nasze auto
 
 Nasze auto to kultowa limuzyna z czasów minionej epoki FSO Warszawa 223.
 W 1971 urodził się Mitja Kunc, słoweński narciarz alpejski, w tym samym roku w amerykańskim stanie Utah utworzono Park Narodowy Arches. 45 lat temu powstał także nasz egzemplarz tej socjalistycznej myśli technicznej.
 !
 
-### Oferta
+### Auto nasze
 
 Naszym głównym celem jest towarzyszenie Państwu w tej szczególnej uroczystości jaką jest ceremonia ślubna, a nasza usługa obejmuje, wszystkie przejazdy w tym ważnym dla Państwa dniu. Nasza rola kończy się w momencie, gdy dotrą Państwo po ceremonii zaślubin do miejsca w którym zamierzają Państwo świętować ten wyjątkowy dzień.
 !

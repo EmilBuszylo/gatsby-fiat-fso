@@ -41,28 +41,6 @@ query FrontPage($path: String!) {
             image
           }
         }
-        info_card {
-          image1 {
-            title
-            image
-            link
-          }
-          image2 {
-            title
-            image
-            link
-          }
-          image3 {
-            title
-            image
-            link
-          }
-          image4 {
-            title
-            image
-            link
-          }
-        }
       }
     }
   }

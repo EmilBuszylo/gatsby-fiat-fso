@@ -41,6 +41,15 @@
         }
     }
 
+    #contact {
+        text-align: center;
+
+        .contact-map {
+            width: 30em;
+            height: 15em;
+        }
+    }
+
     .gallery-wrapper {
         display: block;
         min-height: 1px;
@@ -54,14 +63,42 @@
                 object-fit: cover;
             }
         }
-
-
     }
 
     @media (max-width: 768px) { 
         padding-top: 3em;
+
+        #contact {
+            text-align: center;
+    
+            .contact-map {
+                width: 30em;
+            }
+        }
     }
 
+    @media (max-width: 540px) { 
+        .gallery-wrapper {
+
+            .tile {
+                width: 100%;
+
+                .tile-viewport {
+                    width: auto !important;
+                    height: auto !important;
+                    padding: .3em;
+    
+                    img {
+                        width: 100% !important;
+                        height: 100% !important;
+                        object-fit: unset;
+                        margin: 0 !important;
+                    
+                    }
+                }
+            }
+        }
+    }
     // .hero {
     //     height: 55vh;
     //     width: 100%;

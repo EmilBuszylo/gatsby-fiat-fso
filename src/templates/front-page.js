@@ -25,8 +25,6 @@ export default class FrontPage extends React.Component {
       contentText = data.html.split('!'); 
     }
 
-    console.log(contentText)
-
     const socialItems = {
       fb: {
         show: true,
@@ -54,10 +52,10 @@ export default class FrontPage extends React.Component {
         <div className="slider-wrapper">
           <Carousel autoplay={true} wrapAround={true} autoplayInterval={4000}
             renderCenterLeftControls={({ previousSlide }) => (
-              <button onClick={previousSlide}><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+              <button onClick={previousSlide}><i className="fa fa-chevron-left" aria-hidden="true"></i></button>
             )}
             renderCenterRightControls={({ nextSlide }) => (
-              <button onClick={nextSlide}><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+              <button onClick={nextSlide}><i className="fa fa-chevron-right" aria-hidden="true"></i></button>
             )}
           >         
             <img src={data.frontmatter.slider_img.image1.image} />

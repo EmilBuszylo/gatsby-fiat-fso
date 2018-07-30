@@ -12,9 +12,6 @@ export default class GalleryPage extends React.Component {
         const galleryArray = markdownRemark.html.replace(/<p>|<\/p>|<img|src=|"|>|\\|\n/gim, '').split('!');
         let images = [];
 
-        console.log(galleryArray)
-
-
         for (let i = 1; i <= galleryArray.length; i++ ) {
             images.push({
                 src: galleryArray[i -1].replace(/alt=.+/gim, ''),

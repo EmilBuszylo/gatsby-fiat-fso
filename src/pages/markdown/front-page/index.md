@@ -15,6 +15,19 @@ slider_img:
   image3:
     alt: Warszawa FSO 223
     image: ./img/warszawa_slider.jpg
+fso_card:
+  card1:
+    title: Fotki
+    content: Galeria zdjęć naszego auta..
+    link: /galeria
+  card2:
+    title: Samochód
+    content: Wszystko co chciałbyś wiedziec o naszym aucie..
+    link: /nasze-auto
+  card3:
+    title: O nas
+    content: Wszystko co chciałbyś wiedzieć o nas samych..
+    link: /o-nas
 info_card:
   image1:
     title: Warszawa FSO 223

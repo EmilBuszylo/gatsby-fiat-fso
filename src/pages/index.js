@@ -41,6 +41,23 @@ query FrontPage($path: String!) {
             image
           }
         }
+        fso_card {
+          card1 {
+            title
+            content
+            link
+          }
+          card2 {
+            title
+            content
+            link
+          }
+          card3 {
+            title
+            content
+            link
+          }
+        }
         info_card {
           image1 {
             title

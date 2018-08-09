@@ -1,5 +1,5 @@
 #layout {
-  background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
   min-height: 100vh;
 
 
@@ -42,7 +42,14 @@
     }
 
     #contact {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .defaultContent {
+            line-height: 2;
+            margin: 1em auto;
+        }
 
         .contact-map {
             width: 30em;
@@ -65,19 +72,31 @@
         }
     }
 
-    @media (max-width: 768px) { 
+    @media (max-width: 561px) {
         padding-top: 3em;
 
         #contact {
-            text-align: center;
-    
+
             .contact-map {
-                width: 30em;
+                width: 15em;
             }
         }
     }
 
-    @media (max-width: 540px) { 
+    @media (max-width: 367px) {
+        padding-top: 3em;
+
+        #contact {
+
+            .contact-map {
+                width: 20em;
+            }
+        }
+    }
+
+    @media (max-width: 540px) {
+        font-size: .9em;
+
         .gallery-wrapper {
 
             .tile {
@@ -87,18 +106,20 @@
                     width: auto !important;
                     height: auto !important;
                     padding: .3em;
-    
+
                     img {
                         width: 100% !important;
                         height: 100% !important;
                         object-fit: unset;
                         margin: 0 !important;
-                    
+
                     }
                 }
             }
         }
     }
+
+
     // .hero {
     //     height: 55vh;
     //     width: 100%;

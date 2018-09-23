@@ -15,6 +15,7 @@ export default class Kontakt extends React.Component {
             { name: 'title', content: markdownRemark.frontmatter.seoTitle },
             { name: 'description', content: markdownRemark.frontmatter.description },
             { name: 'keywords', content: markdownRemark.frontmatter.keyWords },
+            { property: 'og:title', content: markdownRemark.frontmatter.seoTitle }
           ]}
         />
         <h1 className="page-title">{markdownRemark.frontmatter.title}</h1>
